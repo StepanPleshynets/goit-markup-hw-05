@@ -406,13 +406,15 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .overley{
 position: absolute;
-background-color:rgba(255, 0, 99, 0.5);
-color: #FFFFFF;
-font-size: 14px;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 10px;
-padding-left: 10px;
+background-color:var(--iris-color);
+color: var(--cloud-color);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 40px;
 left: 0;
 top: 0;
 width: 100%;
